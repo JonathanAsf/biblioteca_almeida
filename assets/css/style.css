@@ -1,0 +1,38 @@
+html{
+
+    margin: 0;
+    background-color: #f1f1f1;
+}
+
+.main_title{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.book_image{
+    height: 300px;
+    margin:2rem;
+}
+
+.conteiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    line-height: 1.5rem;
+}
+
+.conteiner h2{
+    text-align: center;
+}
+
+.conteiner_box{
+    margin: 0 2rem;
+    padding: 2rem;
+    height: 800px;
+}
+
+
+.buy{
+    margin-top: 7rem;
+    padding: 1rem;
+    background-color: cadetblue ;
+}
