@@ -2,6 +2,8 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    /* background-color: #e1e1e1; */
+
 }
 
 .main_title{
@@ -32,11 +34,28 @@ body{
     margin: 0 2rem;
     padding: 3rem;
     height: 42rem;
-    /* background-color: #e1e1e1; */
-
 }
 
 .rate_stars{
     height: 15px;
 
+}
+
+@media (max-width: 1150px){
+    .main_title{
+        font-size: 1.5rem;
+    }
+    .book_name{
+        font-size: 1.5rem;
+    }
+    .conteiner{
+        grid-template-columns: 1fr;
+    }
+    .book_image{
+        width:auto;
+    }
+    .conteiner_box{
+        padding: auto;
+        margin: 0rem 0rem;
+    }
 }
